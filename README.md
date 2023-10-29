@@ -17,6 +17,7 @@ New columns have been extracted from the existing data like transaction_day, tra
 
 You can find the data used in this project here:
 [Taxi Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
+
 [Information about the features](file:///D:/New-York-Taxi-Price-Prediction/Data/data_dictionary_trip_records_yellow.pdf)
 
 ## Algortithms used
