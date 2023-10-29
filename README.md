@@ -4,9 +4,11 @@ This project is about predicting the average fare of a taxi in New York City.Thi
 
 ## Problems fixed
 Data contains some outliers and negative values as shown in the figure below
+
 ![Graph with all the data](/images/total_values_graph.png)
 
 Removed the negative and zero values because they might affect the model and also outliers because the fare values are very high which is abnormal.
+
 ![Graph without outliers and negative values](/images/values_graph_without_outliers_and_negative.png)
 
 
@@ -40,5 +42,6 @@ Performance comparision after tuning:
 | Tuned Random forest | 7.156 | 11.871 | 0.473 |
 
 True vs Predicted values graph for the tuned random forest model:
+
 ![true vs predicted values graph](/images/tuned_random_forest.png)
 *x-axis represents the true values and y-axis represents the predicted values*
