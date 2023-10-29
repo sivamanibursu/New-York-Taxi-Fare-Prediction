@@ -1,6 +1,6 @@
 # New-York-Taxi-Fare-Prediction
 ## Description
-This project is about predicting the average fare of a taxi in New York City.This is a supervised regression problem as we are predicting the amount that needs to be spend on a taxi ride per hour.
+This project is about predicting the average fare of a taxi in New York city. This is a supervised regression problem as we are predicting the amount that needs to be spend on a taxi ride per hour.
 
 ## Problems fixed
 Data contains some outliers and negative values as shown in the figure below
