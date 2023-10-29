@@ -16,8 +16,8 @@ Removed the negative and zero values because they might affect the model and als
 New columns have been extracted from the existing data like transaction_day, transaction_month etc. Added some external features like holidays and weekends from a calendar module, New York city weather data and borough information.
 
 You can find the data used in this project here:
-*[Taxi Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page),
-*[Information about the features](file:///D:/New-York-Taxi-Price-Prediction/Data/data_dictionary_trip_records_yellow.pdf)
+* [Taxi Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page),
+* [Information about the features](file:///D:/New-York-Taxi-Price-Prediction/Data/data_dictionary_trip_records_yellow.pdf)
 
 ## Algortithms used
 Used Decision Tree Regressor as a benchmark model. Benchmark model is the model that is used on the available data without any feature engineering to see if the model predicts the target without any overfitting or underfitting. 
