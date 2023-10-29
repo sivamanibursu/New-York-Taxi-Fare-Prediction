@@ -18,8 +18,7 @@ New columns have been extracted from the existing data like transaction_day, tra
 You can find the data used in this project here:
 * [Taxi data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 * [Information about the features](https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf)
-* [Weather data]
-
+  
 ## Algortithms used
 Used Decision Tree Regressor as a benchmark model. Benchmark model is the model that is used on the available data without any feature engineering to see if the model predicts the target without any overfitting or underfitting. 
 After feature engineering, again Decision Tree is used along with Random Forest and Gradient Boosting algorithms.
