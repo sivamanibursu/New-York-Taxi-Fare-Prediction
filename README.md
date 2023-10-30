@@ -18,13 +18,13 @@ After removing Outliers, negative and zero values from the data, some of the fea
 
 *x-axis represents the true values and y-axis represents the predicted values*
 
-This overfitting might be due to the trip_distance feature which is directly related to the transportation cost. So the trip_distance feature is removed from the input feature and used the decision tree regressor on the updated features which gives the result as shown in the table.
+This overfitting might be due to the trip_distance feature which is directly related to the transportation cost. So the trip_distance feature is removed from the input feature and applied decision tree regressor on the updated features which gives the result as shown in the table.
 | Algorithm                  |  MAE  |  RMSE  |   R2   |
 |----------------------------|:-----:|:------:|:------:|
 | Overfitting Benchmark model| 4.949 | 9.392  | 0.722 |
 | Benchmark model            | 9.024 | 14.121 | 0.373 |
 
-Note: Here the Benchmark model is any desired machine learning model that is used before feature engineering.  
+Note: Benchmark model means the machine learning model that is used before feature engineering.  
 
 ## Feature Engineering
 New columns have been extracted from the existing data like transaction_week_day, weekend etc. Added some external features like holidays from a calendar module, New York city weather data and borough information. Only selected the boroughs Manhattan, Brooklyn, Queens, Bronx which are the major areas in which taxis are operating. Other locations with less taxi operations have been removed as they would affect the model performance. There are problems with the values and data types of the weather data which are fixed by replacing the values with accurate values and converting those to correct data types. Missing values in the weather data are fixed with interpolation, backward and forward filling techniques. PULocationID, transaction_month, transaction_day, transaction_hour, transaction_week_day, weekend, is_holiday, Borough, temperature, humidity, wind speed, cloud cover, amount of precipitation, total_amount are the features used in the models.
