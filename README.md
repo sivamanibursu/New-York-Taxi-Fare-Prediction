@@ -15,6 +15,7 @@ Removed the negative and zero values because they might affect the model and als
 After removing Outliers, negative and zero values from the data, some of the features which I think would contribute in predicting the target feature have been selected as input features. The input features selected are PULocationID, transaction_month, transaction_day, transaction_hour, trip_distance where some of these are extracted from the transaction_date and total_amount is selected as the target feature as we are predicting the average fare of a taxi. Applied decision tree regressor on the data and found that it is overfitting through the metrics and the graph as shown in the figure below.
 
 ![True vs Predicted values of the overfitting model](/images/overfitting_benchmark.png)
+
 *x-axis represents the true values and y-axis represents the predicted values*
 
 This overfitting might be due to the trip_distance feature which is directly related to the transportation cost. So the trip_distance feature is removed from the input feature and used the decision tree regressor on the updated features which gives the result as shown in the table.
