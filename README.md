@@ -18,7 +18,7 @@ After removing Outliers, negative and zero values from the data, some of the fea
 
 *x-axis represents the true values and y-axis represents the predicted values*
 
-This overfitting might be due to the trip_distance feature which is directly related to the transportation cost. So the trip_distance feature is removed from the input feature and applied decision tree regressor on the updated features which gives the result as shown in the table.
+This overfitting might be due to the trip_distance feature which is directly related to the transportation cost. So the trip_distance feature is removed from the input features and applied decision tree regressor on the updated features which gives the result as shown in the table.
 | Algorithm                  |  MAE  |  RMSE  |   R2   |
 |----------------------------|:-----:|:------:|:------:|
 | Overfitting Benchmark model| 4.949 | 9.392  | 0.722 |
